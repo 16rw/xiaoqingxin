@@ -1,0 +1,19 @@
+1 下载并安装git 
+
+搜索链接：  https://github.com/16rw/xiaoqingxin
+
+2 在本地要提交代码处右键点击git bush here
+
+3 代码可能和网上不一样需要先下下来
+git内输入 git pull https://github.com/16rw/xiaoqingxin master
+
+4 选择要上传文件
+git内输入 git add --all 上传全部文件
+或者 git add 文件名
+
+5命名文件
+git commit -m "命名"
+
+
+6 上传文件
+git push https://github.com/16rw/xiaoqingxin master
