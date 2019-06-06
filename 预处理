@@ -1,0 +1,40 @@
+
+解决防sql注入
+    方案1；预处理
+	前提是必须创建mysqli的数据库连接对象
+	$mysqli
+	$stmt
+
+	$sql = "select * from user where username=? and password=?";
+	第一步：发送sql到MySQL执行预处理
+
+			$stmt = $mysqli->prepare($sql);
+
+			第二步：绑定参数
+			s:字符串
+			i:整型
+			d:浮点数
+			b:布尔
+			$stmt->bind_param("ss", $username, $password);
+            
+            
+
+
+
+
+	第三步：执行预处理语句
+			$stmt->execute();   成功返回true  失败返回false
+
+	第四步：绑定结果集参数
+			$stmt->bind_result($username, $password);
+
+	第五步：遍历结果集数据
+
+			while ($stmt->fetch()) {
+			        printf ("%s (%s)\n", $username, $password);
+			}
+    方案2：字符转义   select * from user where username='php#'
+           mysql_real_escape_string() 
+    
+
+    
