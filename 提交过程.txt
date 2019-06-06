@@ -1,19 +1,20 @@
-1 ÏÂÔØ²¢°²×°git 
+1 ä¸‹è½½å¹¶å®‰è£…git 
 
-ËÑË÷Á´½Ó£º  https://github.com/16rw/xiaoqingxin
+æœç´¢é“¾æ¥ï¼š  https://github.com/16rw/xiaoqingxin
+ä¸‹è½½ä¸Šé¢çš„ git.exeæ–‡ä»¶
 
-2 ÔÚ±¾µØÒªÌá½»´úÂë´¦ÓÒ¼üµã»÷git bush here
+2 åœ¨æœ¬åœ°è¦æäº¤ä»£ç å¤„å³é”®ç‚¹å‡»git bush here
 
-3 ´úÂë¿ÉÄÜºÍÍøÉÏ²»Ò»ÑùĞèÒªÏÈÏÂÏÂÀ´
-gitÄÚÊäÈë git pull https://github.com/16rw/xiaoqingxin master
+3 ä»£ç å¯èƒ½å’Œç½‘ä¸Šä¸ä¸€æ ·éœ€è¦å…ˆä¸‹ä¸‹æ¥
+gitå†…è¾“å…¥ git pull https://github.com/16rw/xiaoqingxin master
 
-4 Ñ¡ÔñÒªÉÏ´«ÎÄ¼ş
-gitÄÚÊäÈë git add --all ÉÏ´«È«²¿ÎÄ¼ş
-»òÕß git add ÎÄ¼şÃû
+4 é€‰æ‹©è¦ä¸Šä¼ æ–‡ä»¶
+gitå†…è¾“å…¥ git add --all ä¸Šä¼ å…¨éƒ¨æ–‡ä»¶
+æˆ–è€… git add æ–‡ä»¶å
 
-5ÃüÃûÎÄ¼ş
-git commit -m "ÃüÃû"
+5å‘½åæ–‡ä»¶
+git commit -m "å‘½å"
 
 
-6 ÉÏ´«ÎÄ¼ş
+6 ä¸Šä¼ æ–‡ä»¶
 git push https://github.com/16rw/xiaoqingxin master
